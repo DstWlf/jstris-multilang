@@ -118,7 +118,7 @@ return [
 'aSpec' => ' Sudah menonton!', 
 'aPlay' => 'Sudah bermain!', 
 'repFail' => 'Tayangan Ulang gagal disimpan.',
-'repInChat' => 'File tayangan ualng dibuang ke obrolan. Untuk menyimpannya, salin teks di dalam kotak dan tempel ke editor teks favorit Anda.',
+'repInChat' => 'File tayangan ulang dibuang ke obrolan. Untuk menyimpannya, salin teks di dalam kotak dan tempel ke editor teks favorit Anda.',
 'repTxtInfo' => 'Berkas tayangan ulang yang disalin kemudian dapat diputar di replayer atau mungkin dikirimkan kembali ke situs.',
 'newPB' => 'REKOR PRIBADI TERBAIK',
 'firstPB' => 'Ini adalah permainan pertamamu. Dapat PB lain untuk melacak kemajuan.',
@@ -153,7 +153,7 @@ return [
 'cntSpec' => '{cnt} menonton',
 'joinPossible' => 'Layak bergabung',
 'notEligible' => 'Tidak memenuhi syarat',
-'gTimeShort' => 'Waktu G." // I have no idea what's G. Time is. 
+'gTimeShort' => 'Waktu G.' // I have no idea what's G. Time is. 
 'on' => 'Hidup',
 'off' => 'Mati',
 'fr' => 'Teman',
