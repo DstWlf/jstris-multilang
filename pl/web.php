@@ -17,6 +17,11 @@ return [
     'favReplays' => 'Ulubione powtórki',
     'settings' => 'Ustawienia',
     'logout' => 'Wyloguj się',
+    'stats' => 'Statystyki',
+    'rankingStats' => 'Statystyka rankingu',
+    'botMatches' => 'Mecze z botami',
+    'activity' => 'Aktywność',
+    'supporter' => 'Wspierający',
     
     /* Leaderboard */
     'name' => 'Nazwa',
@@ -67,6 +72,128 @@ return [
     'newPw' => 'Nowe hasło',
     'againPw' => 'Powtórz',
     'applyChange' => 'Zastosuj zmiany',
+    'emailChange' => 'Zmień e-mail',
+    'currentEmail' => 'Aktualny',
+    'newEmail' => 'Nowy e-mail',
+    
+    /* Localization settings */
+    'localSettings' => 'Ustawienia lokalizacji',
+    'lang' => 'Język',
+    'langNone' => 'Żaden (wybór w górnym menu)',
+    'langDesc' => 'Ustaw preferowany język.',
+    'timezone' => 'Strefa czasowa',
+    'timezoneDesc' => 'Używana do konwersji czasu na twój lokalny.',
+    'country' => 'Kraj',
+    'countryDesc' => 'Używany do wyświetlania krajowych rankingów.',
+    
+    /* Profile */
+    'ownProfile' => 'To jest twój profil publiczny dostępny pod',
+    'bestTimes' => 'Najlepsze czasy',
+    'allTimes' => 'Wyświetl wszystkie czasy sprintów',
+    'userImpr' => 'Wyświetl statystyki postępu',
+    'gameStats' => 'Statystyki gry',
+    'latestGames' => 'Ostatnie gry',
+    'noGames' => 'Ten użytkownik nie rozegrał jeszcze żadnych gier.',
+    'gamesPlayed' => 'Gry',
+    'totalTime' => 'Całkowity czas',
+    'linesSent' => 'Wysłano linii',
+    'linesRec' => 'Otrzymano linii',
+    'placedBlocks' => 'Ułożonych bloków',
+    'maxAPM' => 'Max. APM',
+    'maxREN' => 'Max. Kombo',
+    'longestGame' => 'Najdłuższa gra',
+    'totalB2B' => 'Całkowite B2B',
+    'mostSent' => 'Najwięcej wysłano',
+    'hours' => 'godzin',
+    'minutes' => 'minut',
+    
+    /* Stats */
+    'improvementStats' => 'Statystyki postępu',
+    //keep ':name'
+    'improvementInfo' => 'Poniższy graf pokazuje czas wyścigu (oś Y) względem daty rozegrania gry (oś X). Podświetlone linie pokazują postęp w osobistych rekordach użytkownika :name. Możesz ustawić kursor nad dowolnym punktem by pokazać szczegóły gry.',
+    'date' => 'Data',
+    'result' => 'Wynik',
+    'submit' => 'Wyślij',
+    'qSettings' => 'Ustawienia zapytania',
+    'dispAll' => 'Wyświetl wszystkie gry',
+    
+    /* About */
+    'aboutInfo' => 'Jstris jest prostą grą sieciową polegającą na układaniu bloków, zbudowaną w Javascripcie, HTML5 i Pythonie (serwer).',
+    'version' => 'Wersja',
+    'changelog' => 'Historia zmian',
+    'discussion' => 'Dyskusja',
+    'learnMore' => 'Dowiedz się więcej',
+    'contact' => 'Kontakt',
+    'serverCoverage' => 'Pokrycie kosztu serwera',
+    'supporters' => 'Osoby Wspierające projektu',
+    
+    /* Other */
+    'notFound' => 'Nie znaleziono.',
+    'invalidLink' => 'Żądany link jest niewłaściwy.',
+    'brb' => 'Zaraz wracam.', // or "Widzimy się wkrótce", not sure where this string is shown
+    'tryAgain' => 'Strona jest uaktualniana, Proszę spróbować ponownie za kilka chwil.',
+
+    'friends' => 'Przyjaciele',    
+    'settings' => 'Ustawienia',
+    'logout' => 'Wyloguj się',
+    'stats' => 'Statystyki',
+    'rankingStats' => 'Statystyka rankingu',
+    'botMatches' => 'Mecze z botami',
+    'activity' => 'Aktywność',
+    'supporter' => 'Wspierający',
+    
+    /* Leaderboard */
+    'name' => 'Nazwa',
+    'time' => 'Czas',
+    'blocks' => 'Bloki',
+    'PPS' => 'PPS',
+    'finesse' => 'Finezja',
+    'date' => 'Data',
+    'replay' => 'Powtórka',
+    'place' => 'Miejsce',
+    'nli' => 'Nie zalogowano!',
+    'today' => 'Dziś',
+    'lastWeek' => 'Ostatni tydzień',
+    'lastMonth' => 'Ostatni miesiąc',
+    'lastYear' => 'Ostatni rok',
+    'allTime' => 'Zawsze',
+    'bestPlayers' => 'Najlepsi gracze',
+    'bestGames' => 'Najlepsze gry',
+    'bestSubs' => 'Najlepsi poniżej',
+    'latestGames' => 'Ostatnie gry',
+    'leastBlocks' => 'Najmniej bloków',
+    'myTimes' => 'Moje czasy',
+    'perfectFinesse' => '0 błędów finezji',
+    
+    /* Replay */
+    'load' => 'Załaduj',
+    'play' => 'Odtwórz',
+    'pause' => 'Pauza',
+    'showSeg' => 'Pokaż segmenty',
+    'fastestSeg' => 'Najszybsze segmenty',
+    'slowestSeg' => 'Najwolniejsze segmenty',
+    'speedChart' => 'Wykres prędkości',
+    'moreStats' => 'Więcej statystyk',
+    'lines' => 'Linii',
+    'scoringPlaylist' => 'Punktacja',
+    'filterSP' => 'Przefiltruj punktację',
+    'applyFilter' => 'Zastosuj filtr',
+    'timestamp' => 'Czas',
+    'action' => 'Akcja', // e.g. combo, tspin, perfect clear
+    'scoreEq' => 'Odpowiadające punkty',
+    'position' => 'Pozycja', //position in a replay
+    'lAVG' => 'Lokalna średnia',
+    'gAVG' => 'Globalna średnia',
+    'repHelp' => 'Pomoc', //link that shows information how to use the tool
+    
+    /* PW change */
+    'pwChange' => 'Zmień hasło',
+    'newPw' => 'Nowe hasło',
+    'againPw' => 'Powtórz',
+    'applyChange' => 'Zastosuj zmiany',
+    'emailChange' => 'Zmień e-mail',
+    'currentEmail' => 'Aktualny',
+    'newEmail' => 'Nowy e-mail',
     
     /* Localization settings */
     'localSettings' => 'Ustawienia lokalizacji',
@@ -192,4 +319,84 @@ return [
     'ruSure' => 'Jesteś pewny/a?',
     'rmFriend' => 'Chcesz usunąć tą osobę z listy znajomych?',
     'rmConfirm' => 'Tak, usuń',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Lokalizacja',
+    'setPasswordNav' => 'Hasło',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Inne',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Połącz Discord',
+    'disconnect' => 'Odłącz',
+    'connectDiscord' => 'Połącz Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Eksperymenty',
+    'setExperimentsDesc' => 'Włącz dostęp testowy do eksperymentalnych/niedokończonych funkcji',
+    'setExperimentsNote' => 'Podziel się pomysłami o testowanych funkcjach na Discordzie Jstris',
+    'deleteAccount' => 'Usuń konto',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Wróć',
+    'giftBalanceHistory' => 'Historia salda prezentowego',
+    'message' => 'Wiadomość',
+    'change' => 'Zmiana',
+    'before' => 'Przed',
+    'after' => 'Po',
+    'relative' => 'Względne',
+    'none' => 'Brak',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Subskrypcja',
+    'active' => 'aktywna',
+    'manage' => 'Zarządzaj',
+    'renewsOn' => 'Odnawia się:',
+    'oneTime' => 'Jednorazowa',
+    'expires' => 'Wygasa',
+    'extend' => 'Przedłuż',
+    'giftingBalance' => 'Saldo prezentowe',
+    'days' => 'dni',
+    'add' => 'Dodaj',
+    'useCode' => 'Użyj kodu',
+    'balanceHistory' => 'Historia salda',
+    'noExpiration' => 'Bez wygaśnięcia',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Prześlij własny obraz',
+    'uploadCustomImageDesc' => 'Wybierz obraz jako publiczne zdjęcie profilowe na Jstris. Może zostać usunięty, jeśli zostanie zgłoszony jako niestosowny.',
+    'supporterOption' => 'Opcja Supporter',
+    'seeDetails' => 'Zobacz szczegóły',
+    'uploadPreviewCrop' => 'Prześlij, aby podejrzeć i przyciąć',
+
+    /* Settings - Profile */
+    'remove' => 'Usuń',
+    'noImageSelected' => 'Nie wybrano jeszcze obrazu',
+    'bioPlaceholder' => 'Wpisz wiadomość, która pojawi się na Twoim profilu',
+    'bioFormatInfo' => 'Możesz formatować linki w ten sposób: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Konta Supporter mogą używać formatowania, wstawiać linki i emotki',
+    'selectProfileImage' => 'Wybierz obraz profilowy',
+    'jstrisBlocks' => 'Klocki Jstris',
+    'animalArt' => 'Sztuka zwierzęca',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris jest bez reklam i darmowy dla wszystkich. Wspierając odblokowujesz następujące korzyści:',
+    'benefitProfileCustomizations' => 'Personalizacja profilu',
+    'benefitProfileCustomizationsDesc' => 'Możesz przesłać własne zdjęcie profilowe i używać rozszerzonego formatowania w sekcji „O mnie” (do 2000 znaków, linki i emotki).',
+    'benefitSaveMatchesBots' => 'Zapisuj mecze z botami',
+    'benefitSaveMatchesBotsDesc' => 'Twoje 1v1 z botami zostaną zapisane w wynikach wraz z powtórkami i statystykami.',
+    'benefitUnlimitedReplays' => 'Nieograniczone powtórki',
+    'benefitUnlimitedReplaysDesc' => 'Żadne powtórki z trybów singleplayer nie będą usuwane, gdy Supporter jest aktywny.',
+    'getSupporterCta' => 'Zdobądź Jstris Supporter!',
+    'configureBenefits' => 'Skonfiguruj korzyści',
+    'nameChange' => 'Zmiana nazwy',
+    'nameChangeInfo' => 'Jako Supporter możesz zmienić nazwę raz w miesiącu. Zmień tutaj:',
+    'newNameLabel' => 'Nowa nazwa',
+    'newNamePlaceholder' => 'Podaj nową nazwę użytkownika',
+    'manageSubscriptionTitle' => 'Zarządzaj subskrypcją Jstris',
+    'manageSubscriptionInfo1' => 'Aby wstrzymać/anulować, zaloguj się do PayPal i wybierz odpowiednią opcję w panelu subskrypcji.',
+    'manageSubscriptionInfo2' => 'W razie problemów: jstris@jezevec10.com.',
+    'close' => 'Zamknij',
 ];

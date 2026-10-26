@@ -18,6 +18,11 @@ return [
     'friends' => 'Přátelé',    
     'settings' => 'Nastavení',
     'logout' => 'Odhlásit',
+    'stats' => 'Statistiky',
+    'rankingStats' => 'Statistiky žebříčku',
+    'botMatches' => 'Zápasy s boty',
+    'activity' => 'Aktivita',
+    'supporter' => 'Supporter',
     
     /* Leaderboard */
     'name' => 'Jméno',
@@ -70,6 +75,9 @@ return [
     'newPw' => 'Nové heslo',
     'againPw' => 'Znovu',
     'applyChange' => 'Použít změny',
+    'emailChange' => 'Změnit e-mail',
+    'currentEmail' => 'Aktuální',
+    'newEmail' => 'Nový e-mail',
     
     /* Localization settings */
     'localSettings' => 'Jazyk a region',
@@ -134,7 +142,7 @@ return [
     'displayUnpublished' => 'Zobrazit :cnt nezveřejněných map',
     'displayPublished' => 'Zobrazit :cnt veřejných map',
     'usersMapMedals' => 'Medaile za mapy hráče :name',
-    'usersCompletedMaps' => ':Dokončené mapy hráče :name',
+    'usersCompletedMaps' => 'Dokončené mapy hráče :name',
     'showRecords' => 'Zobrazit rekordy',
     'details' => 'Podrobnosti',
     'playedBy' => 'Hráčů',
@@ -200,4 +208,84 @@ return [
     'ruSure' => 'Jste si jistí?',
     'rmFriend' => 'Chcete tohoto uživatele odstranit ze seznamu přátel?',
     'rmConfirm' => 'Ano, odstranit',
+    
+    /* Settings - Navigation */
+    'setProfileNav' => 'Profil',
+    'setLocalizationNav' => 'Jazyk a region',
+    'setPasswordNav' => 'Heslo',
+    'setSupporterNav' => 'Supporter',
+    'setOtherNav' => 'Další',
+
+    /* Settings - Discord */
+    'setDiscordTitle' => 'Připojit Discord',
+    'disconnect' => 'Odpojit',
+    'connectDiscord' => 'Připojit Discord',
+
+    /* Settings - Other */
+    'setExperiments' => 'Experimenty',
+    'setExperimentsDesc' => 'Povolit testovací přístup k experimentálním/nedokončeným funkcím',
+    'setExperimentsNote' => 'Sdílejte své nápady k testovaným funkcím na Jstris Discordu',
+    'deleteAccount' => 'Smazat účet',
+
+    /* Settings - Supporter History */
+    'returnBack' => 'Zpět',
+    'giftBalanceHistory' => 'Historie dárkového zůstatku',
+    'message' => 'Zpráva',
+    'change' => 'Změna',
+    'before' => 'Před',
+    'after' => 'Po',
+    'relative' => 'Relativní',
+    'none' => 'Žádné',
+
+    /* Settings - Supporter Status */
+    'subscription' => 'Předplatné',
+    'active' => 'aktivní',
+    'manage' => 'Spravovat',
+    'renewsOn' => 'Obnovuje se:',
+    'oneTime' => 'Jednorázové',
+    'expires' => 'Vyprší',
+    'extend' => 'Prodloužit',
+    'giftingBalance' => 'Dárkový zůstatek',
+    'days' => 'dní',
+    'add' => 'Přidat',
+    'useCode' => 'Použít kód',
+    'balanceHistory' => 'Historie zůstatku',
+    'noExpiration' => 'Bez expirace',
+
+    /* Settings - Upload Custom Image */
+    'uploadCustomImage' => 'Nahrát vlastní obrázek',
+    'uploadCustomImageDesc' => 'Vyberte obrázek, který bude použit jako veřejná profilová fotka na Jstrisu. Obrázek může být odstraněn, pokud bude nahlášen jako nevhodný.',
+    'supporterOption' => 'Možnost pro Supportery',
+    'seeDetails' => 'Zobrazit detaily',
+    'uploadPreviewCrop' => 'Nahrát pro náhled a oříznutí',
+
+    /* Settings - Profile */
+    'remove' => 'Odebrat',
+    'noImageSelected' => 'Zatím nebyl vybrán žádný obrázek',
+    'bioPlaceholder' => 'Zadejte text, který se zobrazí na vašem profilu',
+    'bioFormatInfo' => 'Odkazy můžete formátovat takto: [YouTube](https://youtu.be/dQw4w9WgXcQ)',
+    'bioFormatInfoNonPrem' => 'Účty Supporter mohou používat formátování, vkládat odkazy a emoty',
+    'selectProfileImage' => 'Vybrat profilový obrázek',
+    'jstrisBlocks' => 'Jstris bloky',
+    'animalArt' => 'Zvířecí motivy',
+
+    /* Settings - Supporter page */
+    'jstrisSupporterTitle' => 'Jstris Supporter',
+    'supporterLead' => 'Jstris je bez reklam a zdarma pro všechny. Podporou odemknete následující výhody:',
+    'benefitProfileCustomizations' => 'Úpravy profilu',
+    'benefitProfileCustomizationsDesc' => 'Můžete nahrát vlastní profilový obrázek a použít rozšířené formátování v zprávě „O mně“ (až 2000 znaků, odkazy a emoty).',
+    'benefitSaveMatchesBots' => 'Ukládání zápasů proti botům',
+    'benefitSaveMatchesBotsDesc' => 'Vaše 1v1 proti botům se uloží do výsledků včetně záznamů a rozšířených statistik.',
+    'benefitUnlimitedReplays' => 'Neomezené záznamy',
+    'benefitUnlimitedReplaysDesc' => 'Žádné vaše záznamy z jednohráčských režimů nebudou při aktivním Supporterovi mazány.',
+    'getSupporterCta' => 'Získat Jstris Supporter!',
+    'configureBenefits' => 'Nastavit výhody',
+    'nameChange' => 'Změna jména',
+    'nameChangeInfo' => 'Jako Supporter můžete jednou měsíčně změnit své jméno. Změňte jej zde:',
+    'newNameLabel' => 'Nové jméno',
+    'newNamePlaceholder' => 'Zadejte nové uživatelské jméno',
+    'manageSubscriptionTitle' => 'Správa předplatného Jstris',
+    'manageSubscriptionInfo1' => 'Pro pozastavení nebo zrušení předplatného se přihlaste do svého účtu PayPal a vyberte příslušnou možnost na panelu předplatného.',
+    'manageSubscriptionInfo2' => 'V případě problémů nás kontaktujte na jstris@jezevec10.com.',
+    'close' => 'Zavřít',
 ];
